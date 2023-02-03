@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS `item`;
 CREATE TABLE item (
   id int(11) UNSIGNED PRIMARY KEY NOT NULL AUTO_INCREMENT,
   title varchar(255) NOT NULL
@@ -5,7 +6,7 @@ CREATE TABLE item (
 
 INSERT INTO item (title) VALUES ('Stuff'), ('Doodads');
 
-
+DROP TABLE IF EXISTS `project`;
 CREATE TABLE project(
   id INT AUTO_INCREMENT PRIMARY KEY,
   project_name VARCHAR(255) NOT NULL,
@@ -67,3 +68,14 @@ VALUES
 (4, 1),
 (4, 4),
 (4,14);
+
+
+CREATE TABLE user (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  login VARCHAR(255) NOT NULL,
+  hashedPassword VARCHAR(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+INSERT INTO user (login, hashedPassword)
+VALUES
+('adminadmin', "$argon2i$v=19$m=16,t=2,p=1$M1JzUzlscWd0aExtcnlvTQ$/HDw50BIeA8rrm90j+BdSg")

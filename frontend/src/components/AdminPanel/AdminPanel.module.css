@@ -1,0 +1,11 @@
+.auth {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth button {
+  width: 30px;
+  margin: 0 auto;
+  background-color: transparent;
+  border: none;
+}

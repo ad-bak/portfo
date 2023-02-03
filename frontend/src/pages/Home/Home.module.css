@@ -9,3 +9,10 @@
 .section p {
   text-shadow: 0 0 10px black;
 }
+
+.admin {
+  position: absolute;
+  top: -40px;
+  display: flex;
+  gap: 50vw;
+}

@@ -1,0 +1,11 @@
+.admin {
+  position: absolute;
+  top: -40px;
+  display: flex;
+  gap: 50vw;
+}
+
+/* .admin button {
+  background-color: transparent;
+  border: none;
+} */

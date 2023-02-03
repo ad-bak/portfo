@@ -22,7 +22,7 @@ function Projects() {
           key={project.project_name}
         >
           {project.tools.map((tool) => (
-            <span>{tool}</span>
+            <span key={Math.floor(Math.random() * 99999)}>{tool}</span>
           ))}
         </Project>
       ))}
