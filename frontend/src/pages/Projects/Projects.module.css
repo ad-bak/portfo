@@ -1,0 +1,10 @@
+.section {
+  margin-top: auto;
+  text-overflow: clip;
+}
+
+.section {
+}
+.project:first {
+  display: flex;
+}

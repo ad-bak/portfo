@@ -1,0 +1,11 @@
+.section {
+  transition: all 0.5;
+  margin-top: auto;
+  max-width: 200px;
+  font-weight: bold;
+  color: white;
+}
+
+.section p {
+  text-shadow: 0 0 10px black;
+}

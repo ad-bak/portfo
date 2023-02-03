@@ -1,0 +1,22 @@
+.project {
+  text-decoration: none;
+  color: white;
+  text-shadow: 0 0 10px black;
+}
+
+.project:hover {
+  color: lightgray;
+}
+
+.project .tools {
+  display: flex;
+}
+
+.project .tools p {
+  display: flex;
+  margin: 0 2px;
+}
+
+.project .tools span::after {
+  content: "/";
+}
